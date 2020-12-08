@@ -81,7 +81,8 @@ build() {
     --with-json-c \
     --with-libxml2 \
     --with-lmdb \
-    --with-libtool
+    --with-libtool \
+    --with-gssapi=yes
   make
 }
 
